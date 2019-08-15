@@ -1,2 +1,2 @@
 # Rumahsakit
-Input data Menggunakan Sqlita Database helper
+Input data Menggunakan SQlite Database helper
