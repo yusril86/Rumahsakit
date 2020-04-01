@@ -3,9 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="@layout/activity_listdata">
-    <ListView
-        android:id="@+id/list_view"
+    tools:showIn="@layout/activity_listdatadokter">
+    
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_list_dokter"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+
+        />
 </RelativeLayout>

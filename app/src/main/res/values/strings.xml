@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Rumah sakit</string>
+
+    <string name="editdata"> Edit Data </string>
 </resources>

@@ -5,15 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".inputdata">
+    tools:context=".dokter.inputdata">
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Input nama"
         android:layout_margin="15dp"
-        android:id="@+id/txt_nama"/>
+        android:id="@+id/edt_nama"/>
     <EditText
-        android:id="@+id/txt_id"
+        android:id="@+id/edt_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
@@ -21,12 +22,29 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Input jenis Kelamin"
+        android:hint="Input NIP"
         android:layout_margin="15dp"
-        android:id="@+id/txt_jenis"/>
-
-
-
+        android:id="@+id/edt_nip"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input TMT"
+        android:layout_margin="15dp"
+        android:id="@+id/edt_tmt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Masa Kerja"
+        android:layout_margin="15dp"
+        android:id="@+id/edt_masakerja"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Keterangan"
+        android:layout_margin="15dp"
+        android:id="@+id/edt_keterangan"/>
 
 <Button
     android:id="@+id/btn_add"

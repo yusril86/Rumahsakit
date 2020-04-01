@@ -48,12 +48,12 @@ public class Adapter extends BaseAdapter {
 
         TextView id = (TextView) convertView.findViewById(R.id.tv_id);
         TextView nama = (TextView) convertView.findViewById(R.id.tv_nama);
-        TextView jenis_kelamin = (TextView) convertView.findViewById(R.id.tv_jeniskelamin);
+//        TextView jenis_kelamin = (TextView) convertView.findViewById(R.id.tv_jeniskelamin);
         data data = item.get(position);
 
         id.setText(data.getId());
         nama.setText(data.getNama());
-        jenis_kelamin.setText(data.getJenis_kelamin());
+//        jenis_kelamin.setText(data.getJenis_kelamin());
         return convertView;
     }
 

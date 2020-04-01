@@ -64,6 +64,7 @@
     </FrameLayout>
 
     <FrameLayout
+        android:onClick="perawat"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         android:background="#CD5C5C">
